@@ -3,6 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    width: 100%;
+    max-width: 40rem;
+    height: 100vh;
+    margin: auto;
+    border: 1px solid black;
+}
+
 html {
     font-size: 10px;
     font-family: monospace;
