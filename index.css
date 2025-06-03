@@ -1,15 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+    font-family: monospace;
+}
+
 body {
     width: 100%;
     max-width: 40rem;
-    margin: auto;
+    height: 100vh;
+    margin: 0 auto;
 }
 
-.cargador, .cargador a{
+.cargador, .cargador a {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.cargador img{
+
+.cargador img {
     width: 80%;
+    max-width: 300px;
+    height: auto;
+}
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+    body {
+        max-width: 100%;
+        border: none;
+    }
+    
+    .cargador img {
+        width: 70%;
+    }
 }

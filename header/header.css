@@ -257,3 +257,9 @@
     background-color: #98A8B8;
     border-radius: 15px;
 }
+
+@media screen and (min-width: 768px) {
+    .padre {
+        max-width: 50rem;
+    }
+}

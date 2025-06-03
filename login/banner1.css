@@ -1,30 +1,37 @@
+/* banner1.css - Estilos responsive para el Banner 1 */
 .seccion-banner1 {
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 0 2.5rem;
+    max-width: 40rem;
+    margin: 0 auto;
 }
-.img-banner{
-    width: 100%;
-    margin-top: 30%;
+
+.seccion-banner1 .img-banner {
+    width: 90%;
     max-width: 24rem;
     height: 30rem;
+    margin-top: 5vh;
     background-color: gray;
     border-radius: 5px;
 }
 
-.seccion-banner1 h2{
-    font-size: 1.6rem;
-    margin-top: 6rem;
+.seccion-banner1 h2 {
+    font-size: 2.4rem;
+    margin-top: 3rem;
 }
+
 .seccion-banner1 p {
     font-size: 1.6rem;
     color: #646982;
     margin-top: 2rem;
+    line-height: 1.5;
 }
-.div-puntos{
+
+.seccion-banner1 .div-puntos {
     width: 100%;
     height: 3rem;
     display: flex;
@@ -33,7 +40,8 @@
     gap: 1.5rem;
     padding: 3rem 0;
 }
-.div-puntos a{
+
+.seccion-banner1 .div-puntos a {
     display: block;
     width: 1rem;
     height: 1rem;
@@ -41,13 +49,14 @@
     border-radius: 100%;
 }
 
-.div-puntos .punto1{
+.seccion-banner1 .div-puntos .punto1 {
     background-color: #FF7622;
 }
 
-.btn-next{
+.seccion-banner1 .btn-next {
     background-color: #FF7622;
-    width: 100%;
+    width: 90%;
+    max-width: 35rem;
     height: 5rem;
     padding: 1.5rem;
     display: flex;
@@ -55,17 +64,40 @@
     justify-content: center;
     border-radius: 12px;
     color: white;
+    font-size: 1.6rem;
+    margin: 1rem auto;
 }
-.btn-skip{
+
+.seccion-banner1 .btn-skip {
     color: #646982;
-    width: 100%;
+    width: 90%;
+    max-width: 35rem;
     height: 3rem;
     padding: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 1.4rem;
+    margin: 1rem auto;
 }
-a{
-    text-decoration: none;
-    font-size: 14px;
+
+/* Media Queries para Banner 1 */
+@media screen and (max-width: 480px) {
+    .seccion-banner1 {
+        padding: 0 1.5rem;
+    }
+    
+    .seccion-banner1 .img-banner {
+        height: 25rem;
+        margin-top: 3vh;
+    }
+    
+    .seccion-banner1 h2 {
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+    
+    .seccion-banner1 p {
+        font-size: 1.4rem;
+    }
 }
