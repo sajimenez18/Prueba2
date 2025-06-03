@@ -1,4 +1,4 @@
-.seccion-banner1 {
+.seccion-banner3 {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -15,11 +15,11 @@
     border-radius: 5px;
 }
 
-.seccion-banner1 h2{
+.seccion-banner3 h2{
     font-size: 1.6rem;
     margin-top: 6rem;
 }
-.seccion-banner1 p {
+.seccion-banner3 p {
     font-size: 1.6rem;
     color: #646982;
     margin-top: 2rem;
@@ -41,7 +41,7 @@
     border-radius: 100%;
 }
 
-.div-puntos .punto1{
+.div-puntos .punto3{
     background-color: #FF7622;
 }
 
